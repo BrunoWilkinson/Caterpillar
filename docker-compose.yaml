@@ -1,0 +1,19 @@
+version: '3'
+services:
+  mongo:
+    image: mongo:latest
+    volumes:
+      - ./data/db:/data/db
+    ports:
+      - 27017
+  api:
+    image: node:alpine
+    user: node
+    working_dir: /home/node/app
+    links:
+      - mongo
+    volumes:
+      - ./:/home/node/app
+    ports:
+      - 4000:4000
+    command: sh -c 'yarn && yarn dev'

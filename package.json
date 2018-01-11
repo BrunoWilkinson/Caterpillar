@@ -1,0 +1,48 @@
+{
+  "name": "api-orahi",
+  "version": "1.0.0",
+  "description": "Orahi API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node ./src/index.js",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/BrunoWilkinson/API-Orahi.git"
+  },
+  "author": "Orahi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/BrunoWilkinson/API-Orahi/issues"
+  },
+  "homepage": "https://gitlab.com/BrunoWilkinson/API-Orahi#README",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.0.6",
+    "nodemon": "^1.14.11",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "cors": "^2.8.4",
+    "dotenv-safe": "^4.0.4",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "express-validation": "^1.0.2",
+    "helmet": "^3.9.0",
+    "http-status": "^1.0.1",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.9",
+    "pm2": "^2.9.1",
+    "uuid": "^3.1.0"
+  }
+}

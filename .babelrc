@@ -1,0 +1,15 @@
+{
+  "presets": ["env"],
+  "plugins": [
+    "transform-class-properties",
+    [
+      "transform-runtime",
+      {
+        "helpers": false,
+        "polyfill": true,
+        "regenerator": true,
+        "moduleName": "babel-runtime"
+      }
+    ]
+  ]
+}
