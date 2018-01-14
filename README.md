@@ -1,4 +1,4 @@
-# Catterpillar 
+# Caterpillar
 
 A Boilerplate Node.js Express REST API with Typescript
 
