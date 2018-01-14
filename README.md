@@ -1,5 +1,9 @@
-This is the closed source expressJS restful API for Orahi Client Apps
+# Catterpillar 
+
+A Boilerplate Node.js Express REST API with Typescript
 
 ## Installation
 
-## API docs
+```bash
+git clone https://github.com/BrunoWilkinson/Catterpilar.git
+```
