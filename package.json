@@ -1,7 +1,7 @@
 {
-  "name": "api-orahi",
+  "name": "caterpillar",
   "version": "1.0.0",
-  "description": "Orahi API",
+  "description": "Boilerplate Node Express Typescript REST API",
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./dist",
@@ -16,7 +16,7 @@
     "url": "git+ssh://git@gitlab.com/BrunoWilkinson/API-Orahi.git"
   },
   "author": "Orahi",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://gitlab.com/BrunoWilkinson/API-Orahi/issues"
   },
